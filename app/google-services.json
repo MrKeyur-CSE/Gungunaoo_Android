@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048118920334",
+    "project_id": "gungunaoo",
+    "storage_bucket": "gungunaoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048118920334:android:ff46cf1318f5e6e40cf5df",
+        "android_client_info": {
+          "package_name": "com.example.gungunaoo_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048118920334-n54lq5mugqs85u17i63uiqohpr05s3on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADm6yw8a17qXJHesFsOaN88Shobgp1WKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048118920334-n54lq5mugqs85u17i63uiqohpr05s3on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

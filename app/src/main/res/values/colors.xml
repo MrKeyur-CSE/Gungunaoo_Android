@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="sky_blue">#FFA6EFFF</color>
+    <color name="log_red">#FFE96B6B</color>
 </resources>

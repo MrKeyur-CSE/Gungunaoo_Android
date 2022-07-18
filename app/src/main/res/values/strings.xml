@@ -3,4 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_text"> Hello </string>
+    <string name="aboutUs_description">Our Application is used for listening music and enjoy
+your life.
+We build an community with peace and love. </string>
 </resources>

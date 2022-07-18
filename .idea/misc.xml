@@ -6,8 +6,10 @@
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/editext_bg.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/gradient_gungunaoo.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/ic_aboutus.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/ic_gungunaoo_logo.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/item_selector.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/logout_btn.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/round_corner.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/splashscreen.xml" value="0.1385" />
         <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.2543822146216332" />
@@ -15,7 +17,7 @@
         <entry key="app/src/main/res/layout/activity_registration_screen.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_setting_screen.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18279876708984377" />
-        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.1868438720703125" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.18823529411764706" />
         <entry key="app/src/main/res/menu/item_menu.xml" value="0.2535271483539974" />
       </map>
     </option>

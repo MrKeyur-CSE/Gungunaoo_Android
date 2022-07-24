@@ -69,7 +69,8 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                if (email == "admin@gungunao.com" && pass == "admin#123") {
+                if (email.equals("admin@gungunao.com") && pass.equals("admin#123")) {
+//                    Log.i("Check", "admin login");
                     startActivity(new Intent(MainActivity.this, AdminHomeScreen.class));
                 } else {
 //                  Authenticate the User
@@ -77,10 +78,10 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                Toast.makeText(MainActivity.this, "Logged in Sucessfully.", Toast.LENGTH_LONG);
+                                Toast.makeText(MainActivity.this, "Logged in Sucessfully.", Toast.LENGTH_LONG).show();
                                 startActivity(new Intent(MainActivity.this, HomeScreen.class));
                             } else {
-                                Toast.makeText(MainActivity.this, "Error !!" + task.getException().getMessage(), Toast.LENGTH_LONG);
+                                Toast.makeText(MainActivity.this, "Error !!" + task.getException().getMessage(), Toast.LENGTH_LONG).show();
                             }
                         }
                     });

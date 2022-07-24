@@ -4,27 +4,24 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.WindowManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.firebase.auth.FirebaseAuth;
 
-public class HomeScreen extends AppCompatActivity {
+public class AdminHomeScreen extends AppCompatActivity {
 
     BottomNavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.activity_admin_home_screen);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        navigationView = findViewById(R.id.user_navigation);
+        navigationView = findViewById(R.id.admin_navigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.body_container, new HomeFragment()).commit();
         navigationView.setSelectedItemId(R.id.nav_home);
 
@@ -34,23 +31,16 @@ public class HomeScreen extends AppCompatActivity {
                 Fragment fragment = null;
                 switch (item.getItemId()){
 
-                    case R.id.nav_home:
-                        fragment = new HomeFragment();
+                    case R.id.admin_home:
+                        fragment = new adminHomeFragment();
                         break;
-                    case R.id.nav_setting:
-                        fragment = new SettingFragment();
+                    case R.id.admin_upload:
+                        fragment = new Upload();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.body_container, fragment).commit();
                 return true;
             }
         });
-
-    }
-
-    public void logout(View view) {
-        FirebaseAuth.getInstance().signOut();
-        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-        finish();
     }
 }

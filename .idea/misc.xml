@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/ic_aboutus.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/ic_gungunaoo_logo.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/ic_songdp.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/ic_upload.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/item_selector.xml" value="0.214" />
         <entry key="app/src/main/res/drawable/logout_btn.xml" value="0.175" />
@@ -18,12 +19,14 @@
         <entry key="app/src/main/res/layout/activity_admin_home_screen.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/activity_play_pause_screen.xml" value="0.21034630183839248" />
         <entry key="app/src/main/res/layout/activity_registration_screen.xml" value="0.2729324340820312" />
         <entry key="app/src/main/res/layout/activity_setting_screen.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_admin_home.xml" value="0.2543822146216332" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.18279876708984377" />
         <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.18823529411764706" />
         <entry key="app/src/main/res/layout/fragment_upload.xml" value="0.24283882000855067" />
+        <entry key="app/src/main/res/layout/song.xml" value="0.272344970703125" />
         <entry key="app/src/main/res/menu/admin_menu.xml" value="0.2535271483539974" />
         <entry key="app/src/main/res/menu/item_menu.xml" value="0.2535271483539974" />
       </map>
@@ -34,5 +37,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18279876708984377" />
+      </ProjectState>
+    </option>
   </component>
 </project>

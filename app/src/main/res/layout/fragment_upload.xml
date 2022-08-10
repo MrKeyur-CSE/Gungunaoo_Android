@@ -67,6 +67,7 @@
         android:textAllCaps="false"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:onClick="upload"
         app:layout_constraintBottom_toTopOf="@+id/submit_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
